@@ -1,0 +1,24 @@
+Resolved the function problem
+refactored some code & formatting
+-Added default object value because if second parameter is not provided then it shouldnt give any error
+-Added option to choose b/w json or array response
+-if provided header mismatching with other rows then throw an error
+-Added error messages in utility.js
+-Renamed providedHeader to customHeaders
+-Added ignore header option header field key will be generated only if ignore headers are false
+
+@ unable to understand the use of toArray() - resolved
+@ ### 7. You should give the ability to skip the default stream return value. - Remaining
+@ not working if separated by . or any other delimiter new RegExp(splitRegex) not working - resolved
+
+@ how to automatically detect if stream or normal file path passed in parse.csvParse(); - Remaining
+@ not working for streams fs.createReadStream('input.txt').pipe(Parse.csvParse()).pipe(process.stdout); (need to verify before
+any correction) - Remaining
+
+-Added code for remote URL
+-toJson() & toJsonStream() call remaining..for now it is calling toJson() by default
+
+
+
+
+
